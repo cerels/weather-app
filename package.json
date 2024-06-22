@@ -13,5 +13,8 @@
   "devDependencies": {
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "country-state-city": "^3.2.1"
   }
 }
