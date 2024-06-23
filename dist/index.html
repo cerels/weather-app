@@ -10,13 +10,20 @@
     <h1><p>Weather app</p></h1>
 
     <label for="countries">Choose a country:</label>
-    <select name="countries" id="countries"></select>
+    <select name="countries" id="countries">
+        <option value="default">--Choose a country--</option>
+    </select>
 
     <label for="states">Choose a state:</label>
-    <select name="states" id="states"></select>
+    <select name="states" id="states">
+        <option value="default">--Choose a State--</option>
+    </select>
 
     <label for="cities">Choose a city:</label>
-    <select name="cities" id="cities"></select>
+    <select name="cities" id="cities">
+        <option value="default">--Choose a city--</option>
+    </select>
+    <div id="climateInfo"></div>
   </body>
   <script src="./main.js"></script>
 </html>

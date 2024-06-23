@@ -1,0 +1,97 @@
+/* style.css */
+
+/* Reset some basic elements for cross-browser consistency */
+body, h1, p, label, select, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f2f2f2, #e0e0e0);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Container for the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Dropdown styling */
+select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    min-width: 200px;
+    transition: border-color 0.3s;
+}
+
+select:hover, select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Styling for the climate information display */
+#climateInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #4a90e2;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    select {
+        min-width: 150px;
+        font-size: 0.9rem;
+    }
+
+    #climateInfo {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
